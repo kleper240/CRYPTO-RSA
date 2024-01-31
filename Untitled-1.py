@@ -28,12 +28,12 @@ def chiffrer_RSA(message, p, q):
 message = "Les maths sont l'essence même de la vie."
 
 # Version "en nombre" du message
-message_en_nombre = [76, 101, 115, 32, 109,  97, 116, 104, 115, 32, 115, 111, 110, 116, 32, 108, 39,101,
-115, 115, 101, 110, 99, 101, 32, 100, 101, 32, 108, 97, 32, 118, 105, 101, 46]
+message_en_nombre = [76, 101, 115, 32, 109,  97, 116, 104, 115, 32, 115, 111, 110, 116, 32, 108, 39,101,115, 115, 101, 110, 99, 101, 32, 100, 101, 32, 108, 97, 32, 118, 105, 101, 46
+]
 
 # Paramètres p et q
-p = 19  # Remplacez par votre valeur de p
-q = 29  # Remplacez par votre valeur de q
+p = 11  # Remplacez par votre valeur de p
+q = 3  # Remplacez par votre valeur de q
 
 # Chiffrer le message
 message_chiffre = chiffrer_RSA(message, p, q)
